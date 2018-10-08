@@ -160,7 +160,7 @@ git fetch에서 하는 원격저장소의 변경사항을 가져와서 지역브
 
 
 ### 기타 명령어
---
+
 * git archive --format=tar --prefix=폴더명/ 브랜치혹은태그 | gzip > 파일명.tar.gz
 * git archive --format=zip --prefix=폴더명/ 브랜치혹은태그 > 파일명.zip
 해당 브랜치나 태그를 압축파일로 만듭니다. --prefix를 주면 압축하일이 해당폴더 안에 생성되도록 할 수 있습니다.
